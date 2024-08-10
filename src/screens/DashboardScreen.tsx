@@ -6,7 +6,7 @@ import {useSelector, useDispatch} from 'react-redux';
 import {VictoryChart, VictoryLine, VictoryAxis} from 'victory-native';
 import {RootState} from '../store';
 import {updateWifiInfo} from '../store/slices/wifiSlice';
-import {fetchWifiInfo, runSpeedTest} from '../services/wifiService';
+import {fetchWifiInfo, runSpeedTest} from '../services/wifiService.ts';
 
 const DashboardScreen: React.FC = () => {
   const theme = useTheme();
