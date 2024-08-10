@@ -1,0 +1,28 @@
+{
+    "common": {
+        "wifiInfo": "वाई-फाई जानकारी",
+        "activityLog": "गतिविधि लॉग",
+        "achievements": "उपलब्धियाँ",
+        "settings": "सेटिंग्स"
+    },
+    "dashboard": {
+        "ssid": "एसएसआईडी",
+        "strength": "सिग्नल की शक्ति",
+        "ipAddress": "आईपी पता",
+        "connectedDevices": "जुड़े हुए उपकरण",
+        "dailyDataUsage": "दैनिक डेटा उपयोग",
+        "securityScore": "सुरक्षा स्कोर",
+        "runSpeedTest": "स्पीड टेस्ट चलाएँ"
+    },
+    "settings": {
+        "darkMode": "डार्क मोड",
+        "notifications": "सूचनाएं",
+        "dataSaving": "डेटा बचत",
+        "language": "भाषा",
+        "dataManagement": "डेटा प्रबंधन",
+        "about": "के बारे में",
+        "version": "संस्करण",
+        "privacyPolicy": "गोपनीयता नीति",
+        "termsOfService": "सेवा की शर्तें"
+    }
+}

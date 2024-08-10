@@ -1,0 +1,28 @@
+{
+    "common": {
+        "wifiInfo": "Información de Wi-Fi",
+        "activityLog": "Registro de actividad",
+        "achievements": "Logros",
+        "settings": "Ajustes"
+    },
+    "dashboard": {
+        "ssid": "SSID",
+        "strength": "Intensidad de la señal",
+        "ipAddress": "Dirección IP",
+        "connectedDevices": "Dispositivos conectados",
+        "dailyDataUsage": "Uso diario de datos",
+        "securityScore": "Puntuación de seguridad",
+        "runSpeedTest": "Ejecutar prueba de velocidad"
+    },
+    "settings": {
+        "darkMode": "Modo oscuro",
+        "notifications": "Notificaciones",
+        "dataSaving": "Ahorro de datos",
+        "language": "Idioma",
+        "dataManagement": "Gestión de datos",
+        "about": "Acerca de",
+        "version": "Versión",
+        "privacyPolicy": "Política de privacidad",
+        "termsOfService": "Términos de servicio"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "common": {
+      "wifiInfo": "WiFi Information",
+      "activityLog": "Activity Log",
+      "achievements": "Achievements",
+      "settings": "Settings"
+    },
+    "dashboard": {
+      "ssid": "SSID",
+      "strength": "Signal Strength",
+      "ipAddress": "IP Address",
+      "connectedDevices": "Connected Devices",
+      "dailyDataUsage": "Daily Data Usage",
+      "securityScore": "Security Score",
+      "runSpeedTest": "Run Speed Test"
+    },
+    "settings": {
+      "darkMode": "Dark Mode",
+      "notifications": "Notifications",
+      "dataSaving": "Data Saving",
+      "language": "Language",
+      "dataManagement": "Data Management",
+      "about": "About",
+      "version": "Version",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service"
+    }
+  }

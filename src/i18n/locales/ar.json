@@ -1,0 +1,28 @@
+{
+    "common": {
+        "wifiInfo": "معلومات Wi-Fi",
+        "activityLog": "سجل النشاط",
+        "achievements": "الإنجازات",
+        "settings": "الإعدادات"
+    },
+    "dashboard": {
+        "ssid": "SSID",
+        "strength": "قوة الإشارة",
+        "ipAddress": "عنوان IP",
+        "connectedDevices": "الأجهزة المتصلة",
+        "dailyDataUsage": "استخدام البيانات اليومي",
+        "securityScore": "نقاط الأمان",
+        "runSpeedTest": "تشغيل اختبار السرعة"
+    },
+    "settings": {
+        "darkMode": "الوضع الداكن",
+        "notifications": "الإشعارات",
+        "dataSaving": "توفير البيانات",
+        "language": "اللغة",
+        "dataManagement": "إدارة البيانات",
+        "about": "حول",
+        "version": "الإصدار",
+        "privacyPolicy": "سياسة الخصوصية",
+        "termsOfService": "شروط الخدمة"
+    }
+}

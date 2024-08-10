@@ -1,0 +1,28 @@
+{
+    "common": {
+        "wifiInfo": "Wi-Fi 信息",
+        "activityLog": "活动日志",
+        "achievements": "成就",
+        "settings": "设置"
+    },
+    "dashboard": {
+        "ssid": "SSID",
+        "strength": "信号强度",
+        "ipAddress": "IP 地址",
+        "connectedDevices": "已连接设备",
+        "dailyDataUsage": "每日数据使用量",
+        "securityScore": "安全评分",
+        "runSpeedTest": "运行速度测试"
+    },
+    "settings": {
+        "darkMode": "深色模式",
+        "notifications": "通知",
+        "dataSaving": "数据节省",
+        "language": "语言",
+        "dataManagement": "数据管理",
+        "about": "关于",
+        "version": "版本",
+        "privacyPolicy": "隐私政策",
+        "termsOfService": "服务条款"
+    }
+}

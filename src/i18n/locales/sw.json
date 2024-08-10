@@ -1,0 +1,28 @@
+{
+    "common": {
+        "wifiInfo": "Maelezo ya WiFi",
+        "activityLog": "Kumbukumbu ya Shughuli",
+        "achievements": "Mafanikio",
+        "settings": "Mipangilio"
+    },
+    "dashboard": {
+        "ssid": "SSID", 
+        "strength": "Nguvu ya Ishara",
+        "ipAddress": "Anuani ya IP",
+        "connectedDevices": "Vifaa Vilivyounganishwa",
+        "dailyDataUsage": "Matumizi ya Data ya Kila Siku",
+        "securityScore": "Alama ya Usalama",
+        "runSpeedTest": "Endesha Jaribio la Kasi"
+    },
+    "settings": {
+        "darkMode": "Hali ya Giza",
+        "notifications": "Arifa",
+        "dataSaving": "Kuhifadhi Data",
+        "language": "Lugha",
+        "dataManagement": "Usimamizi wa Data",
+        "about": "Kuhusu",
+        "version": "Toleo",
+        "privacyPolicy": "Sera ya Faragha",
+        "termsOfService": "Sheria na Masharti"
+    }
+} 
