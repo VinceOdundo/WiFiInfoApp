@@ -1,0 +1,22 @@
+export const WIFI_STRENGTH_LEVELS = {
+    EXCELLENT: -50,
+    GOOD: -60,
+    FAIR: -70,
+    WEAK: -80,
+  };
+  
+  export const SECURITY_SCORE_LEVELS = {
+    EXCELLENT: 90,
+    GOOD: 70,
+    FAIR: 50,
+    POOR: 30,
+  };
+  
+  export const ACHIEVEMENT_TYPES = {
+    SPEED_TEST: 'SPEED_TEST',
+    CONNECTION_STREAK: 'CONNECTION_STREAK',
+    SECURITY_UPGRADE: 'SECURITY_UPGRADE',
+    DATA_SAVER: 'DATA_SAVER',
+    EXPLORER: 'EXPLORER',
+  };
+  
