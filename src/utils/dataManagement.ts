@@ -1,6 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import RNFS from 'react-native-fs';
-import { store } from '../store';
+import { store } from '../store/index';
 
 export const clearAppData = async () => {
   try {

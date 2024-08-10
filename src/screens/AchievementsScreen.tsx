@@ -1,18 +1,22 @@
 // src/screens/AchievementsScreen.tsx
 import React from 'react';
-import { View, StyleSheet, ScrollView } from 'react-native';
-import { Text, Card, Button, Icon } from '@rneui/themed';
-import { useTheme } from 'react-native-paper';
-import { useSelector } from 'react-redux';
-import { RootState } from '../store';
+import {View, StyleSheet, ScrollView} from 'react-native';
+import {Text, Card, Button, Icon} from '@rneui/themed';
+import {useTheme} from 'react-native-paper';
+import {useSelector} from 'react-redux';
+import {RootState} from '../store/index';
 import LottieView from 'lottie-react-native';
 
 const AchievementsScreen: React.FC = () => {
   const theme = useTheme();
-  const { achievements, level } = useSelector((state: RootState) => state.achievements);
+  const {achievements, level} = useSelector(
+    (state: RootState) => state.achievements,
+  );
 
   const renderAchievement = (achievement: any) => (
-    <Card key={achievement.id} containerStyle={[styles.card, { backgroundColor: theme.colors.surface }]}>
+    <Card
+      key={achievement.id}
+      containerStyle={[styles.card, {backgroundColor: theme.colors.surface}]}>
       <View style={styles.achievementHeader}>
         <Icon
           name={achievement.unlocked ? 'trophy' : 'lock'}
@@ -22,10 +26,14 @@ const AchievementsScreen: React.FC = () => {
         />
         <Text style={styles.achievementTitle}>{achievement.title}</Text>
       </View>
-      <Text style={styles.achievementDescription}>{achievement.description}</Text>
+      <Text style={styles.achievementDescription}>
+        {achievement.description}
+      </Text>
       {!achievement.unlocked && (
         <View style={styles.progressContainer}>
-          <View style={[styles.progressBar, { width: `${achievement.progress}%` }]} />
+          <View
+            style={[styles.progressBar, {width: `${achievement.progress}%`}]}
+          />
           <Text style={styles.progressText}>{`${achievement.progress}%`}</Text>
         </View>
       )}
@@ -34,7 +42,8 @@ const AchievementsScreen: React.FC = () => {
 
   return (
     <ScrollView style={styles.container}>
-      <Card containerStyle={[styles.card, { backgroundColor: theme.colors.surface }]}>
+      <Card
+        containerStyle={[styles.card, {backgroundColor: theme.colors.surface}]}>
         <Text style={styles.levelText}>Level {level}</Text>
         <LottieView
           source={require('../assets/level-up-animation.json')}
@@ -56,7 +65,7 @@ const styles = StyleSheet.create({
   card: {
     borderRadius: 8,
     shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
+    shadowOffset: {width: 0, height: 2},
     shadowOpacity: 0.1,
     shadowRadius: 4,
     elevation: 3,

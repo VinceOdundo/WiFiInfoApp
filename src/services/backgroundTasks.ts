@@ -1,8 +1,8 @@
 import BackgroundFetch from 'react-native-background-fetch';
 import PushNotification from 'react-native-push-notification';
 import { fetchWifiInfo, assessWifiSecurity } from './wifiService.ts';
-import { store } from '../store';
-import { updateWifiInfo } from '../store/slices/wifiSlice';
+import { store } from '../store/index.ts';
+import { updateWifiInfo } from '../store/slices/wifiSlice.ts';
 
 export const configureBackgroundTasks = () => {
   BackgroundFetch.configure(

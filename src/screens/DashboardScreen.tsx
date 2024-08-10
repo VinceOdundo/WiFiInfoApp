@@ -4,8 +4,8 @@ import {Text, Card, Button} from '@rneui/themed';
 import {useTheme} from 'react-native-paper';
 import {useSelector, useDispatch} from 'react-redux';
 import {VictoryChart, VictoryLine, VictoryAxis} from 'victory-native';
-import {RootState} from '../store';
-import {updateWifiInfo} from '../store/slices/wifiSlice';
+import {RootState} from '../store/index.ts';
+import {updateWifiInfo} from '../store/slices/wifiSlice.ts';
 import {fetchWifiInfo, runSpeedTest} from '../services/wifiService.ts';
 
 const DashboardScreen: React.FC = () => {
