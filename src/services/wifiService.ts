@@ -1,4 +1,3 @@
-// src/services/wifiService.ts
 import WifiManager from 'react-native-wifi-reborn';
 import NetInfo from '@react-native-community/netinfo';
 import { NativeModules, Platform } from 'react-native';
