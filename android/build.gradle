@@ -19,3 +19,12 @@ buildscript {
 }
 
 apply plugin: "com.facebook.react.rootproject"
+android {
+    defaultConfig {
+        manifestPlaceholders = [
+            WIFI_STATE_PERMISSION: "android.permission.ACCESS_WIFI_STATE",
+            CHANGE_WIFI_STATE_PERMISSION: "android.permission.CHANGE_WIFI_STATE",
+            INTERNET_PERMISSION: "android.permission.INTERNET",
+        ]
+    }
+}
